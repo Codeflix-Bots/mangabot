@@ -8,7 +8,7 @@ if os.path.exists(env_file):
 else:
     env_vars = dict(os.environ)
 
-dbname = env_vars.get('DATABASE_URL_PRIMARY') or env_vars.get('DATABASE_URL') or 'sqlite:///test.db'
+dbname = env_vars.get('https://t.me/huhhhhhhhhvuh') or env_vars.get('https://t.me/huhhhhhhhhvuh') or 'sqlite:///test.db'
 
 if dbname.startswith('postgres://'):
     dbname = dbname.replace('postgres://', 'postgresql://', 1)
